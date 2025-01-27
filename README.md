@@ -39,7 +39,7 @@
 
 1.  このリポジトリをクローンまたはダウンロードします。
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/takumi-1234/Javascript-3D-Maze-Game.git
     ```
 2.  `kadai16.html` をブラウザで開きます。
 
