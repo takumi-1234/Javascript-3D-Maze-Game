@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Maze Game</title>
+    <link rel="stylesheet" href="kadai16.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <canvas id="myCanvas"></canvas>
+            <div class="ui-overlay">
+              <div class="minimap-container">
+                <canvas id="minimap"></canvas>
+              </div>
+            <div class="status-container">
+               <div id="status-display"></div>
+            </div>
+           </div>
+        <div class="rotate-ui">
+           <div class="rotate-button left-rotate" data-direction="left"></div>
+           <div class="rotate-button right-rotate" data-direction="right"></div>
+        </div>
+           <div class="control-buttons">
+                 <button id="up">Up</button>
+                 <div class="side-buttons">
+                     <button id="left">Left</button>
+                     <button id="right">Right</button>
+                 </div>
+                 <button id="down">Down</button>
+                <button id="attack">Attack</button>
+            </div>
+         </div>
+   </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="kadai16.js"></script>
+</body>
+</html>
